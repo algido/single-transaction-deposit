@@ -1,0 +1,23 @@
+{
+  "name": "single-transaction-deposit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algido/single-transaction-deposit.git"
+  },
+  "scripts": {
+    "example": "ts-node"
+  },
+  "dependencies": {
+    "algosdk": "^1.14.0",
+    "ts-node": "^10.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "typescript": "^4.6.2"
+  },
+  "author": "",
+  "license": "MIT"
+}
