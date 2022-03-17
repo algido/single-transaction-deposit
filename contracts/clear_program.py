@@ -6,4 +6,4 @@ def clear_program():
 
 
 if __name__ == "__main__":
-    print(compileTeal(clear_program(), Mode.Application, version=5))
+    print(compileTeal(clear_program(), Mode.Application, version=6))

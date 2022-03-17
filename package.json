@@ -8,7 +8,8 @@
     "url": "git+https://github.com/algido/single-transaction-deposit.git"
   },
   "scripts": {
-    "example": "ts-node"
+    "deploy-app": "ts-node examples/createDepositApp.ts",
+    "rekey-deposit": "ts-node examples/rekeyDeposit.ts.ts"
   },
   "dependencies": {
     "algosdk": "^1.14.0",
